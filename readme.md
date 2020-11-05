@@ -45,16 +45,16 @@ Jeżeli wystarczy czasu to home-page -> blog-page -> blog-post.
 ## Product Page - "product-page.html"
 - edytowalne zdjęcie główne, tytuł, opis
 
-###Kalkulator
+### Kalkulator
 Cena na kalkulatorze powinna reagować na zmiany size'u, oraz ilości. Kalkulator posiada predefiniowaną w CMS cenę podstawową, oraz 6 opcji size'ów, do każdego size'u przypisany jest przykładowy mnożnik:
 
-| nazwa | mnożnik |
-| tiny | x0.75 |
-| small | x1.0 |
-| medium | x1.5 |
-| large | x2.0 |
-| extra large | x3 |
-| enormous | x4 | 
+nazwa | mnożnik
+tiny | x0.75 
+small | x1.0
+medium | x1.5
+large | x2.0
+extra large | x3
+enormous | x4 
 
 Przykładowy sposób liczenia ceny: 
 ```
