@@ -29,8 +29,8 @@ Jeżeli wystarczy czasu to home-page -> blog-page -> blog-post.
 - header - zawiera edytowalne elementy nawigacji, docelowo linkowanie do Home, Shop, oraz Blog - wspólny dla wszystkich stron.
 - footer - analogicznie zawiera swoje elementy nawigacji, docelowo linkowanie do Terms of Service, Privacy Policy (mogą to być zwykłe strony contentowe z lorem ispum, ważne, aby linki były edytowalne i prowadziły w faktyczne miejsce na stronie).
 - footer blogowy - dedykowany footer dla bloga, oraz stron blogowych, zawiera:
-- - po lewej - 8 losowych artykułów - kliknięcie kieruje na artykuł
-- - środkowa część - lista tagów - nie są to wszystkie tagi, a jedyie tych artykułów, które wyświetlają się na stronie
+  - po lewej - 8 losowych artykułów - kliknięcie kieruje na artykuł
+  - środkowa część - lista tagów - nie są to wszystkie tagi, a jedyie tych artykułów, które wyświetlają się na stronie
 
 ## Home Page - "home-page.html"
 - Edytowalne wszystkie elementy będące na stronie z poziomu CMS, CTA maja możliwość przypisania zarówno title, jak i tego gdzie prowadzą.
@@ -47,6 +47,7 @@ Jeżeli wystarczy czasu to home-page -> blog-page -> blog-post.
 
 ***Kalkulator***
 Cena na kalkulatorze powinna reagować na zmiany size'u, oraz ilości. Kalkulator posiada predefiniowaną w CMS cenę podstawową, oraz 6 opcji size'ów, do każdego size'u przypisany jest przykładowy mnożnik:
+
 | tiny | x0.75 |
 | small | x1.0 |
 | medium | x1.5 |
@@ -74,8 +75,8 @@ Założenia:
 - promoted article - 3 promowane artukuły (nie najnowsze)
 - breaking news - 5 promowanych artykułów (nie najnowszych)
 - latest stories
-- - lista 6 artykułów z paginacją
-- - po prawej stronie 3 wybrane produkty (lub jeżeli nie wybrane z CMS - dołożone brakujące do trzech).
+  - lista 6 artykułów z paginacją
+  - po prawej stronie 3 wybrane produkty (lub jeżeli nie wybrane z CMS - dołożone brakujące do trzech).
 
 ## Blog Post - "blog-post.html"
 - sekcja hero z header i subheader - umożliwia wrzucenie użytkownikowi zdjęcia w tło
