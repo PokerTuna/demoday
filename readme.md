@@ -44,6 +44,10 @@ Jeżeli wystarczy czasu to home-page -> blog-page -> blog-post.
 
 ## Product Page - "product-page.html"
 - edytowalne zdjęcie główne, tytuł, opis
+- kalkulator (wyjaśniony poniżej)
+- "Buy now" jest mockiem - załóżmy, że kliknięcie dodaje produkt do "koszyka", jednakże nie implementujemy tego w tym zadaniu.
+- Share Facebook / Instagram - kliknięcie powinno udostępniać obecną stronę do danego social media.
+- Pozostałe produkty - powinny wyświetlać się produkty, które posiadają jedną z przypisanych do produktu kategorii
 
 ### Kalkulator
 Cena na kalkulatorze powinna reagować na zmiany size'u, oraz ilości. Kalkulator posiada predefiniowaną w CMS cenę podstawową, oraz 6 opcji size'ów, do każdego size'u przypisany jest przykładowy mnożnik:
@@ -66,12 +70,8 @@ Założenia:
 - config ten musi być przekazywany z PHP do JS (nie może być definiowany w JS)
 - musimy założyć dołożenie dodatkowych size'ów przyszłości, zmiany ich nazwy, oraz modyfikacji wartości mnożnika
 - nie wszystkie size'y będą na wszystkich produktach (user w CMS wybiera jakie size'y obsługuje dany produkt)
+
 ***KONIEC KALKULATOR***
-
-- "Buy now" jest mockiem - załóżmy, że kliknięcie dodaje produkt do "koszyka", jednakże nie implementujemy tego w tym zadaniu.
-- Share Facebook / Instagram - kliknięcie powinno udostępniać obecną stronę do danego social media.
-- Pozostałe produkty - powinny wyświetlać się produkty, które posiadają jedną z przypisanych do produktu kategorii
-
 
 ## Blog Page - "blog-page.html"
 - promoted article - 3 promowane artukuły (nie najnowsze)
