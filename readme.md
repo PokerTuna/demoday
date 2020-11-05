@@ -49,6 +49,7 @@ Jeżeli wystarczy czasu to home-page -> blog-page -> blog-post.
 Cena na kalkulatorze powinna reagować na zmiany size'u, oraz ilości. Kalkulator posiada predefiniowaną w CMS cenę podstawową, oraz 6 opcji size'ów, do każdego size'u przypisany jest przykładowy mnożnik:
 
 nazwa | mnożnik
+--- | ---
 tiny | x0.75 
 small | x1.0
 medium | x1.5
